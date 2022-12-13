@@ -273,6 +273,7 @@ img {
   padding: 40px;
 
   min-width: 528px;
+  min-height: 581px;
   background-color: var(--white-color);
 
   transform: translate(-50%, -50%) scale(1);
@@ -343,10 +344,11 @@ img {
 }
 
 .user-label {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .user-input {
+  height: 40px;
   width: 100%;
   padding: 11px 42px;
 
@@ -400,7 +402,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   line-height: 1.71;
   color: var(--primary-text-color);
 }
